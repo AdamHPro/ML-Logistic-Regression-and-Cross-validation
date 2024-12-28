@@ -8,10 +8,6 @@ def predict(theta, X):
     c = np.zeros(m) # predicted classes of training examples
     p = np.zeros(m) # logistic regression outputs of training examples
     
-    # ====================== YOUR CODE HERE ======================
-    # Instructions: Predict the label of each instance of the
-    #               training set.
-
     Xtheta = np.matmul(X, theta)
     
     for i in range(m) :
